@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-client-8002" />
+        <module name="springcloud-euraka-7001" />
+        <module name="springcloud-feignclient-8004" />
+        <module name="springcloud-provider-8001" />
+        <module name="springcloud-provider-8003" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

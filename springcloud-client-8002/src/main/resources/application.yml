@@ -1,0 +1,13 @@
+server:
+  port: 8002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: microservicecloud-dept8002   # 在eureka中显示对应的服务名字
+    prefer-ip-address: true     #在eureka中下边的访问路径可以显示IP地址
+spring:
+  application:
+    name: service-client8002
+
