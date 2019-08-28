@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EurekaClientController {
     @Autowired
-    FeignService feignService;
+    FeignService  feignService;
 
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name) {
